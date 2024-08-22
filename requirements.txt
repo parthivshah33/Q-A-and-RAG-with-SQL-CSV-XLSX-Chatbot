@@ -1,12 +1,13 @@
 pandas
 gradio
 PyYAML
+sqlite3
 pyprojroot
 SQLAlchemy
+instructor
 python-dotenv
 langchain_core
 langchain-community
-instructor
 InstructorEmbedding
 langchain_google_genai
 libmagic==1.0
