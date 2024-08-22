@@ -85,8 +85,7 @@ This command will create a VectorDB in `data/chroma` directory.
 
 ## How to use Chatbot (Important)
 <h3><span style="color:red">Important</span></h3>
-- To upload your datasets and chat with them during the interaction with the user interface:
-- **Change the chat functioncality to `Process files`** <span style="color:red">please note It.</span>
+- To upload your datasets and chat with them during the interaction with the user interface: **Change the chat functioncality to `Process files`** <span style="color:red">please note It.</span>
 - Upload you files and wait for the message indicating the the database is ready.
 - **Switch back the chat functioncality to `Chat`** <span style="color:red">please note It.</span>
 - **Change the RAG with dropdown to `Uploaded files`.** <span style="color:red">please note It.</span>
