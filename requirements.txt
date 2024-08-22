@@ -1,0 +1,22 @@
+pandas
+gradio
+PyYAML
+pyprojroot
+SQLAlchemy
+python-dotenv
+langchain_core
+langchain-community
+instructor
+InstructorEmbedding
+langchain_google_genai
+libmagic==1.0
+tiktoken==0.4.0
+OpenAI == 0.28.0
+faiss-cpu==1.7.4
+streamlit==1.22.0
+langchain==0.0.284
+unstructured==0.9.2
+python-magic==0.4.27
+python-dotenv==1.0.0
+python-magic-bin==0.4.14
+sentence-transformers==2.2.2
