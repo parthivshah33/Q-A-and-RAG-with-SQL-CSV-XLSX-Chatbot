@@ -1,4 +1,3 @@
-D:\Generative AI Projects\Q&A and RAG with SQL and Tabular Data\ragv
 pandas
 gradio
 PyYAML
