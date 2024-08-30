@@ -102,15 +102,6 @@ class PrepareVectorDBFromTabularData:
             # Treat each row as a separate chunk
             for col in df.columns:
                 output_str += f"{col}: {row[col]},\n"
-            # response = self.APPCFG.azure_openai_client.embeddings.create(
-            #     input = output_str,
-            #     model= self.APPCFG.embedding_model_name
-            # )
-            
-            # response = self.APPCFG.embeddings_client.embeddings.create(
-            #     input = output_str,
-            #     model = self.APPCFG.embedding_model_name
-            # )
             
             response = self.APPCFG.embeddings_client.embed_query(text=output_str)
             embeddings.append(response)

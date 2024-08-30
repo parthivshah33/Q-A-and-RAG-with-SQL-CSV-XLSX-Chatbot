@@ -103,17 +103,7 @@ class ChatBot:
                 )
                 prompt = f"User's question: {message} \n\n Search results:\n {results}"
 
-                messages = [
-                    {"role": "system", "content": str(
-                        APPCFG.rag_llm_system_role
-                    )},
-                    {"role": "user", "content": prompt}
-                ]
-                # llm_response = APPCFG.azure_openai_client.chat.completions.create(
-                #     model=APPCFG.model_name,
-                #     messages=messages
-                # )
-                llm_response = APPCFG.langchain_llm.invoke(message)
+                llm_response = APPCFG.langchain_llm.invoke(prompt)
                 response = llm_response.content
                 print(f"RAG LLM Response : {response}")
 
